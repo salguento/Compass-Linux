@@ -21,15 +21,15 @@ Esse trabalho visa documentar o processo de execução de todo o trabalho.
 # Tutorial 
 ## 1. Habilitar WSL
 
-> Abrir o PowerShell e rodar o comando:
+- Abrir o PowerShell e rodar o comando:
 
 ```powershell
 wsl --install
 ```
 
-> Reiniciar o computador. Depois de reiniciado a instalação será concluída e dará prompt para configuração de um novo nome de usuario UNIX e senha
+- Reiniciar o computador. Depois de reiniciado a instalação será concluída e dará prompt para configuração de um novo nome de usuario UNIX e senha
 
-> Após a configuração de usuario, atualize o sistema
+- Após a configuração de usuario, atualize o sistema
 
 ```sh
 sudo apt update && sudo apt upgrade
@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade
 > https://learn.microsoft.com/pt-br/windows/wsl/setup/environment#set-up-your-linux-username-and-password
 ## 2. Instalar NGINX
 
-https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
+> https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
 
 ```sh
 sudo apt update && sudo apt install nginx
