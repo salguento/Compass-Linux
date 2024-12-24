@@ -88,7 +88,7 @@ mkdir scripts
 - Crie o arquivo `nginx_upcheck.sh` com o editor de texto de sua preferência, aqui o Nano:
 
 ```sn
-nano nginx_upcheck.sh
+nano scripts/nginx_upcheck.sh
 ```
 
 - Inicie o Script com um bash bang:
